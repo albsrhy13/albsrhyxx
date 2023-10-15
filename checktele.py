@@ -250,9 +250,9 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @oj5555
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @o_z_g
 𝚞𝚜𝚎𝚛 (@{username})
-𝚋𝚢 ↣ @oj5555
+꩜ ʟᴏᴏ𝙿s ↬  {trys}
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -309,9 +309,9 @@ async def _(event):
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @oj5555
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @o_z_g
 𝚞𝚜𝚎𝚛 (@{username})
-𝚋𝚢 ↣ @oj5555 
+꩜ ʟᴏᴏ𝙿s ↬  {trys}
   ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -342,9 +342,9 @@ async def _(event):
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @oj5555
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @o_z_g
 𝚞𝚜𝚎𝚛 (@{username})
-𝚋𝚢 ↣ @oj5555
+꩜ ʟᴏᴏ𝙿s ↬  {trys}
   ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
